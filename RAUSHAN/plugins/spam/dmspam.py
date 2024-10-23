@@ -1,6 +1,6 @@
 from pyrogram import filters, Client
 from pyrogram.types import *
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 import os
 import sys
 import asyncio
