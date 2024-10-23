@@ -28,7 +28,6 @@ async def hello(client: app, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     await client.send_photo(message.chat.id, ALIVE_PIC, caption=PHONE_NUMBER_TEXT, reply_markup=reply_markup)
 
-# © By itzshukla Your motherfucker if uh Don't gives credits.
 @app.on_message(filters.command("clone"))
 async def clone(bot: app, msg: Message):
     chat = msg.chat
