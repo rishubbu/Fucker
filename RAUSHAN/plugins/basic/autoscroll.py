@@ -1,7 +1,7 @@
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 the_regex = r"^r\/([^\s\/])+"
 
