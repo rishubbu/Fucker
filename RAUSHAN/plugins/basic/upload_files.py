@@ -4,7 +4,7 @@ import humanize
 from pyrogram import filters, Client
 from pyrogram.types import Message
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 
 async def progress_callback(current, total, bot: Client, message: Message):
