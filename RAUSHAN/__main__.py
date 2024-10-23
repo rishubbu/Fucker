@@ -23,7 +23,7 @@ def run_flask():
 def keep_alive():
     while True:
         try:
-            requests.get("https://satya-userbot.onrender.com")
+            requests.get("https://alpha-userbot.onrender.com")
         except Exception as e:
             print(f"Ping error: {e}")
         time.sleep(300)
