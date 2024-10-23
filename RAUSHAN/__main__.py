@@ -4,6 +4,8 @@ from RAUSHAN.helper import join
 from RAUSHAN import clients, app, ids
 from flask import Flask
 import threading
+import requests
+import time
 
 # Flask app initialize kar rahe hain
 flask_app = Flask(__name__)
@@ -16,6 +18,17 @@ def home():
 # Flask app ko alag thread mein run karne ka function
 def run_flask():
     flask_app.run(host="0.0.0.0", port=8000)
+
+# Keep-alive function jo regular ping bhejta rahega
+def keep_alive():
+    while True:
+        try:
+            # Apne Render app ka URL daal kar ping karein
+            requests.get("https://satya-userbot.onrender.com")
+        except Exception as e:
+            print(f"Ping error: {e}")
+        # Har 5 minute mein ping karein
+        time.sleep(300)
 
 # Bot ke start karne ka async function
 async def start_bot():
@@ -39,6 +52,10 @@ async def start_bot():
 # Flask app ko alag thread mein start kar rahe hain
 flask_thread = threading.Thread(target=run_flask)
 flask_thread.start()
+
+# Keep-alive function ko alag thread mein start kar rahe hain
+keep_alive_thread = threading.Thread(target=keep_alive)
+keep_alive_thread.start()
 
 # Bot ko asyncio loop ke through run kar rahe hain
 loop = asyncio.get_event_loop()
