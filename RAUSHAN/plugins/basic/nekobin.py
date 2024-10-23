@@ -1,4 +1,4 @@
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 import asyncio
 import requests
 import aiohttp
