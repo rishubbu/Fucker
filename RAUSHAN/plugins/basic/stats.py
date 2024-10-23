@@ -2,7 +2,7 @@ from datetime import datetime
 
 from pyrogram import Client, enums, filters
 from pyrogram.types import Message
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 
 
 @Client.on_message(filters.command(["stats", "status"], ".") & filters.me)
