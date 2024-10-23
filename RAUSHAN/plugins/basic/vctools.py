@@ -9,7 +9,7 @@ from pyrogram.raw.types import InputGroupCall, InputPeerChannel, InputPeerChat
 from pyrogram.types import Message
 from RAUSHAN import SUDO_USER
 from pyrogram.types import Message
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 
 def get_arg(message: Message):
