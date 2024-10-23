@@ -1,6 +1,6 @@
 import asyncio
 from pyrogram import filters, Client
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 from RAUSHAN.helper.utility import get_arg
 from pyrogram.types import *
 from pyrogram import __version__
@@ -18,7 +18,7 @@ from pyrogram import Client, errors, filters
 from pyrogram.types import ChatPermissions, Message
 DEVS = int(7403621976)
 from RAUSHAN.helper.PyroHelpers import get_ub_chats
-from RAUSHAN.modules.basic.profile import extract_user, extract_user_and_reason
+from RAUSHAN.plugins.basic.profile import extract_user, extract_user_and_reason
 SUDO_USERS = SUDO_USER
 RAIDS = []
 
