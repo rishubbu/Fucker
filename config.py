@@ -18,7 +18,7 @@ ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/BABY-MUSIC/SATYA_USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/NOOB-CODER-RAJA/SATYA_USERBOT")
 BRANCH = getenv("BRANCH", "main") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
