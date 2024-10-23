@@ -5,7 +5,7 @@ import aiohttp
 from pyrogram import filters, Client 
 from pyrogram.types import Message
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 from pyrogram import enums
 
 @Client.on_message(filters.command(["weather", "w"], ".") & filters.me)
