@@ -6,7 +6,7 @@ from pyrogram.types import Message
 
 from RAUSHAN.helper.basic import edit_or_reply
 
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 
 
 def googlesearch(query):
