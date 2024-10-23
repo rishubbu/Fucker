@@ -9,7 +9,7 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "╭────── ˹ 𝖧ᴇʟʟᴏ 𝖡ᴀʙʏ ˼ ──── ⚘\n┆⚘ 𝖧ᴇʏ, ɪ ᴀᴍ : [˹  ˼](https://t.me/KING_XUSER_BOT)\n┆⚘ 𝖬ᴏʀᴇ ᴀɴɪᴍᴀᴛɪᴏɴ,ғᴜɴ\n┊⚘ 𝖯ᴏᴡᴇʀғᴜʟ & ᴜsᴇғᴜʟʟ ᴜsᴇʀʙᴏᴛ\n╰───────────────────────\n────────────────────────\n❍ 𝖧ᴏᴡ тᴏ ᴜsᴇ тнɪs вσᴛ - [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/PURVI_SUPPORT/223) \n────────────────────────\n❍ 𝖲ᴇssɪᴏɴ 𝖦ᴇɴ вᴏᴛ ⁚ [sᴇssɪᴏɴ-ʙᴏᴛ](https://t.me/KING_STRING_SESSION_BOT) \n────────────────────────\n❍ 𝖢ʟᴏɴᴇ вσт ⁚ /clone [ sᴛʀɪɴɢ sᴇssɪᴏɴ ]\n────────────────────────\n❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⏤‌‌‌‌  [˹ ᴘᴜʀᴠɪ-ᴍᴜ𝛅𝛊ᴄ™ ˼](https://t.me/purvi_support) \n────────────────────────"
+    "╭────── ˹ 𝖧ᴇʟʟᴏ 𝖡ᴀʙʏ ˼ ──── ⚘\n┆⚘ 𝖧ᴇʏ, ɪ ᴀᴍ : [˹ 𝗔ʟᴘʜᴧ ꭙ 𝗨sᴇꝛʙᴏᴛ ˼](https://t.me/KING_XUSER_BOT)\n┆⚘ 𝖬ᴏʀᴇ ᴀɴɪᴍᴀᴛɪᴏɴ,ғᴜɴ\n┊⚘ 𝖯ᴏᴡᴇʀғᴜʟ & ᴜsᴇғᴜʟʟ ᴜsᴇʀʙᴏᴛ\n╰───────────────────────\n────────────────────────\n❍ 𝖧ᴏᴡ тᴏ ᴜsᴇ тнɪs вσᴛ - [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/PURVI_SUPPORT/223) \n────────────────────────\n❍ 𝖲ᴇssɪᴏɴ 𝖦ᴇɴ вᴏᴛ ⁚ [sᴇssɪᴏɴ-ʙᴏᴛ](https://t.me/KING_STRING_SESSION_BOT) \n────────────────────────\n❍ 𝖢ʟᴏɴᴇ вσт ⁚ /clone [ sᴛʀɪɴɢ sᴇssɪᴏɴ ]\n────────────────────────\n❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⏤‌‌‌‌  [˹ ᴘᴜʀᴠɪ-ᴍᴜ𝛅𝛊ᴄ™ ˼](https://t.me/purvi_support) \n────────────────────────"
 )
 
 @app.on_message(filters.command("start"))
@@ -21,7 +21,7 @@ async def hello(client: app, message):
             ],
             [
                 InlineKeyboardButton("˹ 𝐒ᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/+Oh7OmMhAPKY5YTc9"),
-                InlineKeyboardButton("˹ 𝐌ᴜsɪᴄ ˼", url="https://t.me/PURVI_MUSIV_BOT"),
+                InlineKeyboardButton("˹ 𝐌ᴜsɪᴄ ˼", url="https://t.me/PURVI_MUSIC_BOT"),
             ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
