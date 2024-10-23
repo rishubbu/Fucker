@@ -8,9 +8,9 @@ from pyrogram.types import Message
 
 from RAUSHAN import StartTime, app, SUDO_USER
 from RAUSHAN.helper.PyroHelpers import SpeedConvert
-from RAUSHAN.modules.bot.inline import get_readable_time
+from RAUSHAN.plugins.bot.inline import get_readable_time
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 class WWW:
     SpeedTest = (
