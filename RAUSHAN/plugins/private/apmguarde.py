@@ -1,7 +1,7 @@
 from pyrogram import filters, Client
 import asyncio
 from RAUSHAN import SUDO_USER
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 from pyrogram.methods import messages
 from .pmguard import get_arg, denied_users
 
