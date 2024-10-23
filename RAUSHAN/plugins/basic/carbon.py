@@ -7,7 +7,7 @@ from pyrogram.types import Message
 
 from RAUSHAN.helper.PyroHelpers import ReplyCheck
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 
 async def make_carbon(code):
