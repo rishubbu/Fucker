@@ -27,7 +27,7 @@ from config import GIT_TOKEN, REPO_URL, BRANCH
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 HAPP = None
 
 
