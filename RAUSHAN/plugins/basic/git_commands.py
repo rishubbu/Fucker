@@ -13,7 +13,7 @@ from svglib.svglib import svg2rlg
 
 from RAUSHAN.helper.PyroHelpers import ReplyCheck
 from RAUSHAN.helper.aiohttp_helper import AioHttp
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 
 @Client.on_message(filters.command(["ggraph", "commitgraph"], ".") & filters.me)
