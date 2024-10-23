@@ -6,7 +6,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 from RAUSHAN.helper.PyroHelpers import GetChatID, ReplyCheck
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 AFK = False
 AFK_REASON = ""
