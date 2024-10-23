@@ -9,7 +9,7 @@ from pyrogram import filters, Client
 
 from RAUSHAN import SUDO_USER
 from RAUSHAN.helper.basic import eor
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 
 __XOR = []
