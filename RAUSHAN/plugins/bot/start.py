@@ -9,7 +9,7 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "╭────── ˹ 𝖧ᴇʟʟᴏ 𝖡ᴀʙʏ ˼ ──── ⚘\n┆⚘ 𝖧ᴇʏ, ɪ ᴀᴍ : [˹ 𝗔ʟᴘʜᴧ ꭙ 𝗨sᴇꝛʙᴏᴛ ˼](https://t.me/KING_XUSER_BOT)\n┆⚘ 𝖬ᴏʀᴇ ᴀɴɪᴍᴀᴛɪᴏɴ,ғᴜɴ\n┊⚘ 𝖯ᴏᴡᴇʀғᴜʟ & ᴜsᴇғᴜʟʟ ᴜsᴇʀʙᴏᴛ\n╰───────────────────────\n────────────────────────\n❍ 𝖧ᴏᴡ тᴏ ᴜsᴇ тнɪs вσᴛ - [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/PURVI_SUPPORT/223) \n────────────────────────\n❍ 𝖲ᴇssɪᴏɴ 𝖦ᴇɴ вᴏᴛ ⁚ [sᴇssɪᴏɴ-ʙᴏᴛ](https://t.me/KING_STRING_SESSION_BOT) \n────────────────────────\n❍ 𝖢ʟᴏɴᴇ вσт ⁚ /clone [ sᴛʀɪɴɢ sᴇssɪᴏɴ ]\n────────────────────────\n❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⏤‌‌‌‌  [˹ ᴘᴜʀᴠɪ-ᴍᴜ𝛅𝛊ᴄ™ ˼](https://t.me/purvi_support) \n────────────────────────"
+    "**╭──────** **˹ 𝖧ᴇʟʟᴏ 𝖡ᴀʙʏ ˼** **──── ⚘**\n**┆⚘ 𝖧ᴇʏ, ɪ ᴀᴍ :** [˹ 𝗔ʟᴘʜᴧ ꭙ 𝗨sᴇꝛʙᴏᴛ ˼](https://t.me/KING_XUSER_BOT)\n**┆⚘ 𝖬ᴏʀᴇ ᴀɴɪᴍᴀᴛɪᴏɴ,ғᴜɴ**\n**┊⚘ 𝖯ᴏᴡᴇʀғᴜʟ & ᴜsᴇғᴜʟʟ ᴜsᴇʀʙᴏᴛ**\n**╰───────────────────────**\n────────────────────────**\n**❍ 𝖧ᴏᴡ тᴏ ᴜsᴇ тнɪs вσᴛ -** [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/PURVI_SUPPORT/223) \n**────────────────────────**\n**❍ 𝖲ᴇssɪᴏɴ 𝖦ᴇɴ вᴏᴛ ⁚** [sᴇssɪᴏɴ-ʙᴏᴛ](https://t.me/KING_STRING_SESSION_BOT) \n**────────────────────────**\n**❍ 𝖢ʟᴏɴᴇ вσт ⁚** /clone [ sᴛʀɪɴɢ sᴇssɪᴏɴ ]\n**────────────────────────\n**❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ⏤‌‌‌‌**  [˹ ᴘᴜʀᴠɪ-ᴍᴜ𝛅𝛊ᴄ™ ˼](https://t.me/purvi_support) \n**────────────────────────**"
 )
 
 @app.on_message(filters.command("start"))
@@ -34,11 +34,11 @@ async def clone(bot: app, msg: Message):
     cmd = msg.command
     phone = msg.command[1]
     try:
-        await text.edit("ʀᴜᴋ ᴛʜᴏᴅᴀ sᴀ ᴀʟᴘʜᴀ ᴛᴇʀɪ ɢᴀɴᴅ ᴍᴀʀ ʀʜᴀ 👅.....✲")
+        await text.edit("**ʀᴜᴋ ᴛʜᴏᴅᴀ sᴀ ᴀʟᴘʜᴀ ᴛᴇʀɪ ɢᴀɴᴅ ᴍᴀʀ ʀʜᴀ 👅.....✲**")
                    # change this Directry according to ur repo
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="RAUSHAN/plugins"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f" ᴊᴀ ᴘᴇʟ sᴀʙᴋᴏ ᴏʀ ʜᴀᴀ ᴀʟᴘʜᴀ ᴋᴏ ᴘᴀᴘᴀ ʙᴏʟ ᴋᴇ ᴊᴀɴᴀ 🥵 {user.first_name} 💨.")
+        await msg.reply(f" **ᴊᴀ ᴘᴇʟ sᴀʙᴋᴏ ᴏʀ ʜᴀᴀ ᴀʟᴘʜᴀ ᴋᴏ ᴘᴀᴘᴀ ʙᴏʟ ᴋᴇ ᴊᴀɴᴀ** 🥵 {user.first_name} 💨.")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
