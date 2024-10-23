@@ -12,7 +12,7 @@ from pyrogram.types import Message
 from RAUSHAN.helper.basic import edit_or_reply, get_text
 from RAUSHAN.helper.constants import MEMES
 
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 
 DEFAULTUSER = "Man"
 
