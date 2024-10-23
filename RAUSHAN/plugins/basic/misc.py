@@ -8,8 +8,8 @@ from config import ALIVE_PIC, ALIVE_TEXT
 from RAUSHAN import START_TIME
 from RAUSHAN import SUDO_USER
 from RAUSHAN.helper.PyroHelpers import ReplyCheck
-from RAUSHAN.modules.help import add_command_help
-from RAUSHAN.modules.bot.inline import get_readable_time
+from RAUSHAN.plugins.help import add_command_help
+from RAUSHAN.plugins.bot.inline import get_readable_time
 
 alive_logo = ALIVE_PIC or "https://graph.org/file/c6a2ed96648fd03377dc9.jpg"
 
