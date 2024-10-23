@@ -1,1 +1,1 @@
-from RAUSHAN.modules.help.help import *
+from RAUSHAN.plugins.help.help import *
