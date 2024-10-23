@@ -12,8 +12,8 @@ from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 DEVS = ["7403621976", "6730956183"]
 admins_in_chat = {}
 
-from RAUSHAN.modules.help import add_command_help
-from RAUSHAN.modules.basic.profile import extract_user
+from RAUSHAN.plugins.help import add_command_help
+from RAUSHAN.plugins.basic.profile import extract_user
 
 async def extract_user_and_reason(message, sender_chat=False):
     args = message.text.strip().split()
