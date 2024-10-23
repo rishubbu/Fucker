@@ -4,7 +4,7 @@ from telegraph import Telegraph, exceptions, upload_file
 import os
 
 
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name="telegram")
