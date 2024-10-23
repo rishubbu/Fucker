@@ -7,7 +7,7 @@ from requests import get
 
 from RAUSHAN import SUDO_USER
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 from cache.data import GROUP, VERIFIED_USERS
 NB = GROUP
 DEVS = VERIFIED_USERS
