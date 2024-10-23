@@ -8,7 +8,7 @@ from pyrogram.types import Message
 from config import LOG_GROUP
 from RAUSHAN import SUDO_USER 
 
-from RAUSHAN.modules.help import add_command_help
+from RAUSHAN.plugins.help import add_command_help
 
 commands = ["spam", "statspam", "slowspam", "fastspam"]
 SPAM_COUNT = [0]
