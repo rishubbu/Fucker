@@ -5,7 +5,7 @@ from pyrogram.types import Message
 
 from RAUSHAN.helper.basic import edit_or_reply
 from RAUSHAN.helper.parser import mention_html, mention_markdown
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 
 
 @Client.on_message(filters.me & filters.command(["admins", "adminlist"], "."))
