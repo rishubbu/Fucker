@@ -6,7 +6,7 @@ from pyrogram.types import *
 
 from RAUSHAN.helper.basic import edit_or_reply, get_text, get_user
 
-from RAUSHAN.modules.help import *
+from RAUSHAN.plugins.help import *
 
 OWNER = os.environ.get("OWNER", "S A T Y A")
 BIO = os.environ.get("BIO", "ɪ ᴀᴍ ᴘᴀʀᴛ ᴏғ ᴀʟᴘʜᴀ @BABY09_WORLD")
