@@ -20,8 +20,8 @@ async def hello(client: app, message):
                 InlineKeyboardButton("˹ 𝐔ᴘᴅᴀᴛᴇ ˼", url="https://t.me/PURVI_SUPPORT"),
             ],
             [
-                InlineKeyboardButton("˹ 𝐒ᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/+Oh7OmMhAPKY5YTc9"),
-                InlineKeyboardButton("˹ 𝐌ᴜsɪᴄ ˼", url="https://t.me/PURVI_MUSIC_BOT"),
+                InlineKeyboardButton("˹ 𝐒ᴜᴘᴘᴏʀᴛ ˼", url="https://t.me/+gMy8Cp190ediNzZl"),
+                InlineKeyboardButton("˹ 𝐌ᴜsɪᴄ ˼", url="https://t.me/SONALI_MUSIC_BOT"),
             ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
