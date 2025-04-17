@@ -3,7 +3,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pymongo import MongoClient
 import asyncio
 from pyrogram.errors import FloodWait
-from RAUSHAN import dev as app
+from RAUSHAN import app
 
 OWNER_ID = 8143754205
 
